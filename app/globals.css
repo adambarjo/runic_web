@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-indigo-500;
+}
+
+.runic__text {
+  color: white;
+}
+
+.runic__heading {
+  @apply text-indigo-500;
+}
+
+.runic__tag {
+  @apply text-indigo-500;
+}
+
+.runic__osq {
+  @apply text-indigo-500;
+}
+
+.runic__csq {
+  @apply text-indigo-500;
+}
+
+.runic__bulletpoint {
+  @apply text-indigo-500;
+}
+
+::-webkit-scrollbar {
+  @apply w-2 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-indigo-500 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-indigo-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-indigo-200;
+}
+
+textarea::-webkit-scrollbar {
+  @apply w-2 rounded-full;
+}
+
+textarea::-webkit-scrollbar-track {
+  @apply bg-indigo-900 rounded-full;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  @apply bg-indigo-400 rounded-full;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  @apply bg-indigo-300;
+}
